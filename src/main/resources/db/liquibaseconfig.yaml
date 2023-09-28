@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1.0.1
+      author: atlassian
+  - includeAll:
+      path: classpath:db/changelog
+      errorIfMissingOrEmpty: true
